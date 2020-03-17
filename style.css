@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Baloo Thambi 2", cursive;
+  background: #fffafa;
+}
+
+.form-control.success input {
+  border-color: black;
+}
+
+.form-control.error input {
+  border-color: #e74c3c;
+}
+
+.form-control small {
+  color: red;
+  visibility: hidden;
+}
+
+.form-control.error small {
+  visibility: visible;
+}
+
+#main {
+  width: 1400px;
+  margin: 100px auto;
+}
+
+/*Icons*/
+.fa-check-circle {
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 30px;
+  color: #39a245;
+}
+
+.fa-times {
+  margin-left: auto;
+  font-size: 30px;
+  cursor: pointer;
+  color: #39a245;
+  margin-right: 20px;
+}
+
+#confirmation-banner {
+  display: flex;
+  align-items: center;
+  background-color: hsl(127, 38%, 87%);
+  padding: 1px;
+  font-size: 25px;
+  width: 900px;
+  margin-left: 250px;
+  margin-top: 200px;
+  margin-bottom: 0;
+  color: green;
+  border-radius: 5px;
+  visibility: hidden;
+}
+
+.container {
+  border: 1px solid black;
+  width: 900px;
+  height: 590px;
+  margin: 100px auto;
+  background: #fff;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.input-container {
+  margin: 50px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
+.second-input {
+  margin-bottom: 10px;
+}
+
+.radio-input input {
+  margin-left: 80px;
+}
+
+textarea {
+  margin-top: 10px;
+  width: 310px;
+  border-radius: 4px;
+  border: 1px solid black;
+  resize: none;
+}
+
+.user-login {
+  float: right;
+  width: 350px;
+  height: 400px;
+  margin-top: 10px;
+}
+
+/*Submit button*/
+#container-submit-btn {
+  width: 315px;
+  height: 65px;
+}
+
+#container-submit-btn input {
+  float: right;
+  margin-top: 20px;
+  padding: 12px;
+  border-radius: 10px;
+  border-color: teal;
+  background-color: teal;
+  color: white;
+  opacity: 0.7;
+  cursor: pointer;
+  font-size: 16px;
+  width: 110px;
+  outline: 0;
+}
+
+#container-submit-btn input:hover {
+  opacity: 1;
+}
+
+#gender-selection {
+  font-size: 20px;
+}
+
+/*Placeholder*/
+::placeholder {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+}

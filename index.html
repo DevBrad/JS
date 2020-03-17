@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google fonts link-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2&display=swap"
+      rel="stylesheet"
+    />
+    <!--Font Awesome link-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <section id="main">
+      <div id="confirmation-banner">
+        <i class="fa fa-check-circle"></i>
+        <p id="message"></p>
+        <i class="fa fa-times"></i>
+      </div>
+
+      <div class="container">
+        <div class="input-container">
+          <img class="user-login" src="user.png" alt="user" />
+          <form id="form">
+            <div class="form-control">
+              <input
+                id="fname"
+                class="first-input"
+                type="text"
+                size="40"
+                placeholder="First Name"
+              />
+              <br />
+              <small>First name is required</small>
+            </div>
+            <div class="form-control">
+              <input
+                id="lname"
+                class="second-input"
+                type="text"
+                size="40"
+                placeholder="Last Name"
+              />
+              <br />
+              <small>Last name is required</small>
+            </div>
+
+            <br />
+            <label id="gender-selection">Gender</label>
+
+            <div class="radio-input">
+              <input type="radio" />M <br />
+              <input type="radio" />F
+            </div>
+
+            <textarea
+              cols="40"
+              rows="12"
+              placeholder=" Your message here ...."
+            ></textarea>
+
+            <div id="container-submit-btn">
+              <input id="btn" type="submit" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="script.js"></script>
+</html>
