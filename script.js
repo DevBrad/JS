@@ -47,4 +47,14 @@ function showElement() {
   final_message.innerHTML = "Thank you for contacting us, " + fname.value;
 }
 
-console.log(btn.value);
+
+function displayRadioValue() {
+  const radioValue = document.getElementsByName("gender");
+
+  for (i = 0; i < radioValue.length; i++) {
+    if ((radioValue[i].type = "radio")) {
+      if (radioValue[i].checked) console.log("Gender:" + radioValue[i].value + btn.value);
+    }
+  }
+}
+
