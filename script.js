@@ -16,15 +16,18 @@ function checkInputs() {
   if (fnameValue == "") {
     setErrorFor(fname);
   } else {
-    setSuccessFor(fname, showElement());
+    setSuccessFor(fname);
   }
   if (lnameValue == "") {
     setErrorFor(lname);
   } else {
-    setSuccessFor(lname, showElement());
+    setSuccessFor(lname);
+  }
+  if (fnameValue != "" && lnameValue != "") {
+    showElement();
   }
 
-  console.log(fname.value + lname.value);
+  console.log(fname.value + " " + lname.value);
 }
 
 function setErrorFor(input, message) {
